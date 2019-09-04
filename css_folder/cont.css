@@ -1,0 +1,346 @@
+
+html
+{
+  overflow-x: hidden;
+  background-color: lightgray;
+}
+
+
+#steamSym
+{
+
+  position: relative;
+  width:100%;
+  top:0;
+  left:0;
+  border-bottom:black 5px groove;
+}
+
+
+.Header_nav
+{
+  width: 100%;
+  left: 0;
+  top:0;
+  background: black;
+  position: fixed;
+  height: 40px;
+  display: inline-block;
+  
+}
+
+p
+{
+  font-size: 20px;
+  line-height: 30px;
+  text-indent: 20px;
+  margin: 15px 40px 15px 40px;
+}
+
+#Home_header
+{
+  position: absolute;
+  background: black;
+  height: 100%;
+  color: rgb(255, 255, 255);
+  top:  -21px;
+  left: 0;
+  width: 20%;
+  min-width: 115px;
+  text-align: center;
+  vertical-align: middle;
+ 
+  
+  
+}
+.navBar
+{
+  height: 45px;
+  vertical-align: middle;
+  position: absolute;
+  right:0;
+  top: 0;
+  background-color:#eed202;
+  width: 80%;
+  border-bottom-left-radius: 10px;
+  
+}
+nav a  
+{ 
+
+  display: inline-block;
+  position: relative;
+  width: 26%;
+  font-family: 'Overpass', sans-serif Arial;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  top: 7px;
+  text-decoration: none;
+  border-right: rgb(0, 0, 0) 1px solid;
+  text-align: center;
+  min-width: 120px;
+  
+}
+
+nav a:hover
+{
+  text-decoration: underline;
+}
+.home-icon:hover
+{
+
+  border-bottom: 5px solid black;
+}
+
+
+.dropdown_menu
+{
+ visibility: hidden;
+  width: 30px;
+  height: 37px;
+  z-index: 1;
+}
+.menu_bar1
+{
+  position: relative;
+  width: 90%;
+  height: 4px;
+  border-radius: 20px;
+  background-color: white;
+  top:0;
+  right:0;
+  
+}
+.menu_bar2
+{
+  position: relative;
+  width: 90%;
+  height: 4px;
+  border-radius: 20px;
+  background-color: white;
+  margin-top: 5px;
+  right:0;
+}
+.menu_bar3
+{
+  position: relative;
+  width: 90%;
+  height: 4px;
+  border-radius: 20px;
+  background-color: white;
+  margin-top: 5px;
+  right:0;
+}
+#home_icon
+{
+  min-width: 35px;
+  top: 12px;
+  width: 35px;
+  height: 25px;
+
+}
+.Home_word{
+  visibility: hidden;
+}
+/*start of code for home icon on code pen*/
+.icon-home {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top:-27px;
+  margin-left: 2px;
+  text-align: center;
+  overflow: hidden;
+  
+}
+
+.icon-home .home-chimney {
+  width: 12%;
+  height: 18%;
+  position: absolute;
+  left: 20%;
+  top: 21%;
+  background-color: #eed202;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+.icon-home .home-roof-container {
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  left: 50%;
+  margin-left: -30%;
+  top: 20%;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); 
+  overflow: hidden;
+}
+
+.icon-home .home-roof-left {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #eed202;
+  left: -84%;
+}
+
+.icon-home .home-roof-right {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #eed202;
+  top: -84%;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg); 
+}
+
+.icon-home .home-body {
+  width: 60%;
+  height: 70%;
+  position: absolute;
+  left: 50%;
+  margin-left: -30%;
+  bottom: 10%;
+  background-color: #eed202;
+}
+
+.icon-home .home-roof-cut-left {
+  width: 60%;
+  height: 70%;
+  position: absolute;
+  left: -8%;
+  bottom: 55%;
+  background-color: #eed202;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); 
+}
+
+.icon-home .home-roof-cut-right {
+  width: 60%;
+  height: 70%;
+  position: absolute;
+  right: -8%;
+  bottom: 55%;
+  background-color: #eed202;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg); 
+}
+
+.icon-home .home-door {
+  width: 22%;
+  height: 38%;
+  position: absolute;
+  left: 50%;
+  margin-left: -11%;
+  bottom: 00%;
+  background-color: #eed202;
+  border-radius: 15%;
+} /*The stlyistic css for the home icon I found on code pen ends here*/
+
+@media screen and (max-width: 550px) {
+
+.navBar
+  {
+   
+   border:none;
+   width: 150px;
+   text-align: right;
+   top:11px;
+   background: none;
+  
+
+  }
+  
+#final_attempt_to_center
+{
+  text-align: left;
+}
+nav a 
+{
+
+  background: #eed202;
+  border-top: 2px solid grey;
+  border-right: none;
+  position: relative;
+  top:-7px;
+  right: -118px;
+   z-index: 1;
+  width: 130px;
+  height: 30px; 
+}
+nav a:hover
+{
+  background-color:#ffec60;
+  text-decoration: underline;
+
+} 
+.Home_word
+{
+  height: 30px;
+  position: absolute;
+  min-width: 122px;
+  background: #eed202;
+  top:-23px;
+  max-width: 210px;
+  width:134px;
+  visibility: visible;
+  }
+.Home_word:hover
+{
+  background-color:#ffec60;
+  text-decoration: underline;
+  
+}
+.icon-home
+{
+  visibility: hidden;
+}
+
+.dropdown_menu
+{
+ 
+ top:10px;
+ right: 8px;
+ visibility: visible;
+
+position: absolute;
+}
+ .dropbtn 
+ {
+   
+    font-size: 16px;
+   
+}
+
+.dropdown-content {
+    
+    display: none;
+    
+    position: relative;
+    top:38px;
+    min-width: 100px;
+
+   right:100px;
+   
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;  
+}
+
+
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+}
